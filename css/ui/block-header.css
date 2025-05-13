@@ -102,7 +102,7 @@
 .block-header__link {
   justify-self: start;
   padding-right: 35px;
-  background: url('/img/icons/arrow.svg') right no-repeat;
+  background: url('..img/icons/arrow.svg') right no-repeat;
 }
 
 .block-header__link span {
@@ -127,7 +127,7 @@
 }
 
 .link-event {
-  background: url('/img/events/events-arrow.svg') right no-repeat;
+  background: url('..img/events/events-arrow.svg') right no-repeat;
   padding-right: 35px;
   color: #9333ea;
 }
