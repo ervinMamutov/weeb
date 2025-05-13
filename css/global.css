@@ -1,24 +1,24 @@
 @import url('https://fonts.googleapis.comcss?family=Roboto:regular,500,700,800&display=swap');
 
-@import url('css/reset.css');
+@import url('reset.css');
 
-@import url('css/style.css');
+@import url('style.css');
 
 /* ui components */
-@import url('css/ui/button.css');
-@import url('css/ui/title.css');
-@import url('css/ui/block-header.css');
-@import url('css/ui/label.css');
+@import url('ui/button.css');
+@import url('ui/title.css');
+@import url('ui/block-header.css');
+@import url('ui/label.css');
 
 /* block components */
-@import url('css/header.css');
+@import url('header.css');
 
 /* page components */
-@import url('css/page/hero.css');
-@import url('css/page/companies.css');
-@import url('css/page/discover.css');
-@import url('css/page/powerful.css');
-@import url('css/page/testimonials.css');
-@import url('css/page/events.css');
+@import url('page/hero.css');
+@import url('page/companies.css');
+@import url('page/discover.css');
+@import url('page/powerful.css');
+@import url('page/testimonials.css');
+@import url('page/events.css');
 
-@import url('css/footer.css');
+@import url('footer.css');
