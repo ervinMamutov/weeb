@@ -1,0 +1,41 @@
+.discover__page {
+}
+.discover {
+}
+.discover__container {
+  display: grid;
+  align-items: start;
+  grid-template-columns: 1fr 30%;
+  column-gap: 80px;
+  row-gap: 48px;
+}
+.discover__body {
+}
+.discover__block-header {
+}
+.discover__media {
+  padding-top: 37px;
+}
+.discover__image {
+  max-width: 100%;
+}
+
+@media (max-width: 991.98px) {
+  .discover__container {
+    column-gap: 40px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .discover__container {
+    justify-items: center;
+    grid-template-columns: auto;
+  }
+  .discover__block-header {
+    justify-items: center;
+    text-align: center;
+  }
+  .discover__block-header .block-header__link {
+    justify-self: center;
+  }
+}

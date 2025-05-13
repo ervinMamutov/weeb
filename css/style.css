@@ -1,0 +1,48 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  background-color: #0f172a;
+  color: #ffffff;
+}
+
+@media (max-width: 767.98px) {
+  body {
+    font-size: 16px;
+  }
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  overflow: clip;
+}
+
+.wrapper > main {
+  flex-grow: 1;
+}
+
+[class*='__container'] {
+  max-inline-size: 1310px;
+  margin-inline: auto;
+  padding-inline: 15px;
+}
+
+[class*='page__'] {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+@media (max-width: 991.9px) {
+  [class*='page__'] {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+
+@media (max-width: 767.9px) {
+  [class*='page__'] {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+}

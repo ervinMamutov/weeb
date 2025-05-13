@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:regular,500,700,800&display=swap');
+
+@import url('/css/reset.css');
+
+@import url('/css/style.css');
+
+/* ui components */
+@import url('/css/ui/button.css');
+@import url('/css/ui/title.css');
+@import url('/css/ui/block-header.css');
+@import url('/css/ui/label.css');
+
+/* block components */
+@import url('/css/header.css');
+
+/* page components */
+@import url('/css/page/hero.css');
+@import url('/css/page/companies.css');
+@import url('/css/page/discover.css');
+@import url('/css/page/powerful.css');
+@import url('/css/page/testimonials.css');
+@import url('/css/page/events.css');
+
+@import url('/css/footer.css');
